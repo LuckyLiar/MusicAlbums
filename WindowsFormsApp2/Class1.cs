@@ -9,6 +9,28 @@ using WindowsFormsApp2;
 namespace Music_Albums_Base
 {
     /// <summary>
+    /// Добавление альбомов
+    /// </summary>
+    public class AddingAlbums
+    {
+        /// <summary>
+        /// Список альбомов
+        /// </summary>
+        public List<Album> Albumlist { get; set; }
+    }
+
+    /// <summary>
+    /// Добавление артиста
+    /// </summary>
+    public class AddingArtist
+    {
+        /// <summary>
+        /// Список артистов
+        /// </summary>
+        public List<Artist> Artistlist { get; set; }
+    }
+
+    /// <summary>
     /// Класс артиста
     /// </summary>
     public class Artist
